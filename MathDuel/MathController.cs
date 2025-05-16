@@ -66,9 +66,9 @@ namespace MathDuel.Controllers
                     Console.WriteLine($"Wrong! The correct answer was {correctAnswer}.\n");
                     wrongAnswers++;
                 }
-
-                Console.WriteLine($"Game over! Your final score is: {score}");
             }
+
+            Console.WriteLine($"Game over! Your final score is: {score}");
         }
     }
 }
